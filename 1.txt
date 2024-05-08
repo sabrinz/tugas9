@@ -1,0 +1,9 @@
+list_angka = [8, 3, 12, 4, 7, 2]
+
+# Menghapus angka yang kurang dari 5 dan menggantinya dengan 0
+list_angka = [x if x >= 5 else 0 for x in list_angka]
+
+# Mengurutkan dari nilai terbesar ke terkecil
+list_angka.sort(reverse=True)
+
+print(list_angka)
