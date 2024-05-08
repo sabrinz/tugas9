@@ -1,0 +1,9 @@
+kata = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
+
+# Menghapus kata-kata yang memiliki panjang kurang dari lima karakter
+kata = [word for word in kata if len(word) >= 5]
+
+# Mengurutkan sisa kata-kata secara alfabetis
+kata.sort()
+
+print(kata)
